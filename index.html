@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'><!--Link BOXICONS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/><!--Link Swiper's CSS-->
+    <title>Hospital</title>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "22931d52-bc98-4a66-84d4-04a7dc6f0394", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "c5501fcd-3027-4182-a7f1-41017379fd80", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</head>
+
+
+
+
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="nav__logo"><h3>Seraphina Clinic</h3></a>
+            
+            <ul id="nav__items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- <li><a href="https://wa.me/08123456789" target="_blank" class="btn" ><i class='bx bxl-whatsapp' ></i>Konsultasi Online</a></li> -->
+            </ul>
+
+                <button id="open__nav-btn"><i class='bx bx-menu'></i></button>
+                <button id="close__nav-btn"><i class='bx bx-x' ></i></button>
+            
+        </div>
+    </nav>
+<!-----------------END OF NAV MENU---------------->
+
+
+
+
+
+
+
+
+
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <h1>Solusi kesehatan lengkap untuk semua</h1>
+                <p>Karena kami memiliki protokol kesehatan terbaik.</p>
+                <a href="#" class="btn"><i class='bx' ></i>Mari berobat disini</a>
+            </div>
+            <div class="header__image">
+                <img src="./assets/header.svg" alt="Header Image">
+            </div>
+        </div>
+    </header>
+
+    <!---------END OF HEADER-------------------->    
+
+
+
+
+
+
+
+
+
+
+    <section id="services">
+        <h2>Seraphina Clinic</h2>
+        <p>
+            Klinik terbaik dari yang terbaik.
+        </p>
+
+        <div class="container">
+            <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                   <h4>Konsultasi Online</h4>
+                   <br>
+                   <small>
+                    Dapatkan konsultasi medis langsung dari kenyamanan rumah Anda dengan Konsultasi Online Klinik kami, karena konsultasi kami yang paling terbaik.
+                   </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                   <h4>Layanan dan Spesialisasi</h4>
+                   <br>
+                   <small>
+                    Layanan kami meliputi berbagai aspek kesehatan, mulai dari pemeriksaan rutin,termasuk spesialisasi medis, prosedur, pemeriksaan, dan perawatan yang tersedia.
+                   </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                   <h4>Teknologi Modern</h4>
+                   <br>
+                   <small>
+                    Kami menggunakan peralatan medis terdepan untuk diagnosis yang akurat dan terapi yang efektif dan jaminan penyakit tidak kembali.
+                   </small>
+                </div>
+            </article>
+            <!-- <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                   <h4>UTI</h4> 
+                   <small>
+                    t is a long established fact that a reader will be distracted by the readable content of a page
+                   </small>
+                </div>
+            </article> -->
+            <!-- <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                   <h4>Internação</h4> 
+                   <small>
+                    t is a long established fact that a reader will be distracted by the readable content of a page
+                   </small>
+                </div>
+            </article> -->
+            <!-- <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                   <h4>Cirurgia</h4> 
+                   <small>
+                    t is a long established fact that a reader will be distracted by the readable content of a page
+                   </small>
+                </div>
+            </article> -->
+        </div>
+    </section>
+
+<!------------------END OF THE SERVICES------------------->
+
+
+
+
+
+
+
+
+
+
+<section id="doctor">
+    <h2>Tenaga Medis Terpercaya</h2>
+    <p>
+        Dokter-dokter kami adalah ahli di bidangnya masing-masing, dengan pengalaman yang solid dan pemahaman mendalam tentang berbagai kondisi kesehatan.
+    </p>
+    <div class="container">
+        <article>
+            <div class="doctor__image">
+                <img src="./assets/ganda.jpeg" alt="Médico 1">
+            </div>
+            <div class="doctor__details">
+                <h4>Dr. Ganda Alberto</h4>
+                <small>Dokter Sunat</small>
+            </div>
+            <div class="doctor__socials">
+                <a href="#" target="_blank"><i class='bx bxl-linkedin'style='color:#121111'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-twitter' style='color:#121111'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-facebook-circle' style='color:#121111'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-instagram' style='color:#121111'></i></a>
+            </div>
+            <a href="https://wa.me/5561999999999" target="_blank" class="doctor__whatsapp"><i class='bx bxl-whatsapp'></i></a>
+        </article>
+
+
+
+        <article>
+            <div class="doctor__image">
+                <img src="./assets/fariz.jpeg" alt="Médico 2">
+            </div>
+            <div class="doctor__details">
+                <h4>Dr. Fariz McPunster</h4>
+                <small>Spesialis Bisul</small>
+            </div>
+            <div class="doctor__socials">
+                <a href="#" target="_blank"><i class='bx bxl-linkedin'style='color:#121111'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-twitter' style='color:#121111'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-facebook-circle' style='color:#121111'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-instagram' style='color:#121111'></i></a>
+            </div>
+            <a href="https://wa.me/08123456789" target="_blank" class="doctor__whatsapp"><i class='bx bxl-whatsapp'></i></a>
+        </article>
+
+
+
+        <article>
+            <div class="doctor__image">
+                <img src="./assets/zhaky.JPG" alt="Médico 3">
+            </div>
+            <div class="doctor__details">
+                <h4>Dr. Rehan AlWarmindo</h4>
+                <small>Spesialis Usus Buntu</small>
+            </div>
+            <div class="doctor__socials">
+                <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin' style='color:#121111'></i></a>
+                <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter' style='color:#121111'></i></a>
+                <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook-circle' style='color:#121111'></i></a>
+                <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram' style='color:#121111'></i></a>
+            </div>
+            <a href="https://wa.me/08123456789" target="_blank" class="doctor__whatsapp"><i class='bx bxl-whatsapp'></i></a>
+        </article>
+
+        <article>
+            <div class="doctor__image">
+                <img src="./assets/specialist4.jpg" alt="Médico 4">
+            </div>
+            <div class="doctor__details">
+                <h4>Dr. Rey Indosat Baru</h4>
+                <small>Dokter Magang</small>
+            </div>
+            <div class="doctor__socials">
+                <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin' style='color:#121111'></i></a>
+                <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter' style='color:#121111'></i></a>
+                <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook-circle' style='color:#121111'></i></a>
+                <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram' style='color:#121111'></i></a>
+            </div>
+            <a href="https://wa.me/5561999999999" target="_blank" class="doctor__whatsapp"><i class='bx bxl-whatsapp' ></i></a>
+        </article>
+    </div>
+</section>
+
+<!------------------END OF THE DOCTORS------------------->
+
+
+
+
+
+
+
+
+<section id="testimonials"  class="swiper mySwiper">
+    <h2>Pendapat dari pasien kami</h2>
+    <p>Pendapat dari pasien yang berhasil klinik kami rawat dengan sepenuh hati</p>
+
+    <div class="swiper-wrapper">
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar1.jpg" alt="Patiente 1">
+                </div>
+                <div class="patient__details">
+                    <h5>Maria Santos</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar2.jpg" alt="Patiente 2">
+                </div>
+                <div class="patient__details">
+                    <h5>Marcos Aurélio</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar3.jpg" alt="Patiente 3">
+                </div>
+                <div class="patient__details">
+                    <h5>Lucas Oliveira</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar4.jpg" alt="Patiente 4">
+                </div>
+                <div class="patient__details">
+                    <h5>Neuza Paiva</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar5.jpg" alt="Patiente 5">
+                </div>
+                <div class="patient__details">
+                    <h5>Dalila Santos</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar6.jpg" alt="Patiente 6">
+                </div>
+                <div class="patient__details">
+                    <h5>Eduarda Souza</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+
+        <article class="swiper-slide">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            </p>
+            <div class="patient">
+                <div class="avatar">
+                    <img src="./assets/avatar7.jpg" alt="Patiente 7">
+                </div>
+                <div class="patient__details">
+                    <h5>Camila Aguiar</h5>
+                    <small>Pasien</small>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div class="swiper-pagination"></div><!--Swiper JS contador de paginas-->
+</section>
+<!------------------END OF THE TESTIMUNIALS------------------->
+
+
+
+
+
+
+
+<!-- <section id="appointment">
+    <div class="container">
+        <div class="info">
+            <h2>Fale Conosco, queremos ouvir você!</h2>
+            <p>is a long established fact that a reader will be distracted by the readable content of a page</p>
+
+            <article>
+                <div class="info__icon">
+                    <i class='bx bx-user'></i>
+                </div>
+                <div>
+                    <h4>Médicos Experientes</h4>
+                    <small>
+                        is a long established fact that a reader will be distracted by the readable content of a page
+                    </small>
+                </div>
+            </article>
+
+            <article>
+                <div class="info__icon">
+                    <i class='bx bx-reflect-horizontal'></i>
+                </div>
+                <div>
+                    <h4>Tecnologia Avançada</h4>
+                    <small>
+                        is a long established fact that a reader will be distracted by the readable content of a page
+                    </small>
+                </div>
+            </article>
+
+            <article>
+                <div class="info__icon">
+                    <i class='bx bx-first-aid'></i>
+                </div>
+                <div>
+                    <h4>Emergência</h4>
+                    <small>
+                        is a long established fact that a reader will be distracted by the readable content of a page
+                    </small>
+                </div>
+            </article>
+        </div>
+
+        <form action="https://formspree.io/f/mayvaybg" method="POST">
+            <div class="form__group">
+                <label for="name">Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="Nome do Paciente" id="name" required><!--name é o nome do item que irá contar no email-->
+            <!-- </div>
+            <div class="form__group">
+                <label for="phone">Telefone</label>
+                <input type="number" placeholder="Digite seu telefone" name="Numero de Telefone" id="number" required>
+            </div>
+            <div class="form__group">
+                <label for="departament">Selecione o setor</label>
+                <select name="Departamento" id="departament" required>
+                    <option value="Recepção">Atendimento da Recepção</option>
+                    <option value="Médico">Atendimento Médico</option>
+                    <option value="Recepção">Estrutura</option>
+                </select>
+            </div>
+            <div class="form__group">
+                <label for="message">Mensagem</label>
+                <textarea name="Mensagem" id="message" rows="6" placeholder="Adicione uma mensagem" required></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensagem" class="btn-primary">
+        </form>
+    </div>
+</section> -->
+<!------------------END OF THE APPOINTMENT------------------->
+
+
+
+
+
+
+
+<footer>
+    <div class="container">
+        <article class="contact">
+            <div class="contact__items">
+                <i class='bx bx-phone'></i>
+                <a href="#"><h3>08123456789</h3></a>
+            </div>
+            <div class="contact__items">
+                <i class='bx bx-envelope'></i>
+                <a href="mailto:Ouvidoria@Suaclinica.com"><h3>seraphinaclinic@gmail.com</h3></a>
+            </div>
+        </article>
+
+        <article class="adress">
+            <i class='bx bx-home'></i>
+            <a href="https://www.google.com.br/maps/place/Congresso+Nacional/@-15.7997067,-47.8663516,17z/data=!3m1!4b1!4m5!3m4!1s0x935a3b38bf6375b9:0x5b6cafaacd19f3f!8m2!3d-15.7997119!4d-47.8641629" target="_blank"><h3>Jalan Pengibu No. 39 Perumnas Sei Jang, Bukit Bestari, Tanjungpinang, Kepulauan Riau</h3></a>
+            
+            <a href="#"></i></a>
+        </article>
+
+        <article>
+            <div class="footer__socials">
+                <a href="#" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-youtube' ></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            </div> 
+        </article>
+
+        </div>
+        <div class="copyright">
+            <small>&copy; Copyright: 2023 Seraphina Clinic. Seraphina Clinic. |  Dr. Raihan Zhaky - CRM 0000-DF
+        </div>
+</footer>
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><!-- Swiper JS -->
+<script src="./main.js"></script><!--javascript botao menu-->
+
+
+</body>
+</html>
